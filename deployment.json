@@ -1,0 +1,32 @@
+{
+  "project": "32-meridian-atlas",
+  "name": "Meridian",
+  "network": "studionet",
+  "chainId": 61999,
+  "rpc": "https://studio.genlayer.com/api",
+  "explorer": "https://explorer-studio.genlayer.com",
+  "contractAddress": "0xB66A3DB7FfD2CDA03041f23DEb2851c5543B8f87",
+  "deployTxHash": "0x87ead003f55e71f510696910266321f2c1995246db7a30b6fecba0897d3eda62",
+  "contractExplorer": "https://explorer-studio.genlayer.com/contracts/0xB66A3DB7FfD2CDA03041f23DEb2851c5543B8f87",
+  "deployer": "0x8273E4531c84E6C402bd9a1C480388f586cE894d",
+  "deployedAt": "2026-06-24T16:00:01.153Z",
+  "statusName": 7,
+  "smoke": {
+    "configure_protocol": "0x197148f552c688d7e04b519f6229ad343fcecf268be42cdaa835af1712eaa992",
+    "create_case": "0x3f917e0ebf7fa31c57890459f9793e9d547ef88bea22002c6ceb6744cde77ab3",
+    "add_evidence_web": "0xf94402ef6220a6e45681dd33a61880079bb2c137001dd6a3db87c4d9ed4fc72a",
+    "add_evidence_security": "0xc1e99fe2bcac7cfe61cb030c049a04250fb407667615672ce2e7bb2dc80bd2d1",
+    "add_evidence_whitepaper": "0xdd0f33ace0c6dd0296bea62299abb68093b586f400874f3a2493a6a6bcbe488b",
+    "review": "0xe4f3cbe27f4885af9b1d1a1e5bbcf300784e2be8fd05213a8f93ca5672707d4c",
+    "challenge_window": "0x5c28eaa43d7edfd7db21fb46c559eae188715b392e08ef3fc1ed834d96224aa4",
+    "submit_challenge": "0xc3ce764ff85a997f6c4eeaa7ba48f5a895f68c0fbeab91eb8191a3a298f770d2",
+    "resolve_challenge": "0x444dbcef5b2406e25a4ce0515b93a05dade8ef6989f8959a920b503821dd17bb",
+    "submit_appeal": "0xd2f79ba5a878f22ade0b5fd7015edaf718eb6980251fd01bb8766e6f23ba2d7d",
+    "resolve_appeal": "0xa155c1d8a2d6cdb2689475d824dba9d29fc0a78d1ae8029ce1100551fded7b0d",
+    "finalize": "0xcaca9756ca98ec45c91935f40af72d585576c1c83689409b9463fd21faacdca1",
+    "reputation": "0x253bb450ba16ef0f978d34fdcef2d1e2c6bb4cc7333d347f7218d8b4ab75b85e",
+    "caseId": "0",
+    "challengeId": "0",
+    "appealId": "0"
+  }
+}

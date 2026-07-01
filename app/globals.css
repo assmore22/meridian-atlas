@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* { min-width: 0; }
+html { -webkit-text-size-adjust: 100%; }
+body { background:#EFEADC; color:#1A1F23; font-family:var(--font-inter),system-ui,sans-serif; line-height:1.6; -webkit-font-smoothing:antialiased; overflow-wrap:anywhere; }
+h1,h2,h3 { font-family:var(--font-spacegrotesk),system-ui,sans-serif; line-height:1.1; letter-spacing:-.01em; }
+.mono { font-family:var(--font-jbm),ui-monospace,monospace; font-variant-numeric:tabular-nums; }
+.label { font-family:var(--font-jbm),ui-monospace,monospace; font-size:.72rem; letter-spacing:.14em; text-transform:uppercase; color:#5C6670; }
+.hair { border:1px solid rgba(26,31,35,.18); }
+.grid-rule { background-image:linear-gradient(rgba(26,31,35,.05) 1px,transparent 1px),linear-gradient(90deg,rgba(26,31,35,.05) 1px,transparent 1px); background-size:28px 28px; }
+:focus-visible { outline:2px solid #1F6FEB; outline-offset:2px; }
+.skip-link { position:absolute; left:-9999px; top:0; z-index:100; background:#1A1F23; color:#EFEADC; padding:10px 16px; }
+.skip-link:focus { left:8px; top:8px; }
+@media (prefers-reduced-motion: reduce){ *{animation-duration:.001ms!important;transition-duration:.001ms!important} }
