@@ -68,7 +68,7 @@ export default function AtlasPage() {
               <p className="mono mt-1 text-xs text-slate">{current.lat}, {current.lng}</p>
               <p className="mt-2 text-sm">{current.claim}</p>
               {current.rationale && <p className="mt-2 border-l-2 pl-3 text-sm italic text-slate" style={{ borderColor: STATUS_COLOR[current.status] }}>{current.rationale}</p>}
-              <p className="mono mt-2 break-all text-xs"><a className="text-meridian underline" href={current.sourceUrl} target="_blank" rel="noopener noreferrer">source ↗</a></p>
+              <p className="mono mt-2 break-all text-xs"><a className="text-meridian" href={current.sourceUrl} target="_blank" rel="noopener noreferrer">source ↗</a></p>
               <div className="mt-3 flex flex-wrap gap-2">
                 <Link href={`/records/${current.id}`} className="hair px-3 py-2 text-sm hover:border-meridian">Open record</Link>
                 {current.status === GeoStatus.Pending && !PREVIEW_MODE && (

@@ -21,7 +21,7 @@ export default function RecordPage({ params }: { params: Promise<{ id: string }>
     <div className="mx-auto max-w-reading px-4 py-8 sm:px-5 md:px-8">
       <Link href="/" className="mono text-sm text-slate hover:text-meridian">← Atlas</Link>
       {isLoading && <p className="mt-6 text-slate">Reading observation #{id}…</p>}
-      {isError && <p className="mt-6 text-refute" role="alert">Could not read it. <button className="underline" onClick={() => refetch()}>Retry</button></p>}
+      {isError && <p className="mt-6 text-refute" role="alert">Could not read it. <button onClick={() => refetch()}>Retry</button></p>}
       {!isLoading && !o && <p className="mt-6 text-slate">No observation #{id}.</p>}
       {o && (
         <article className="mt-4">
@@ -31,7 +31,7 @@ export default function RecordPage({ params }: { params: Promise<{ id: string }>
           <p className="mt-4 text-lg">{o.claim}</p>
           {o.rationale && <p className="mt-4 border-l-2 pl-4 italic text-slate" style={{ borderColor: STATUS_COLOR[o.status] }}>{o.rationale}</p>}
           <dl className="hair border-x-0 border-b-0 mt-6 grid grid-cols-[7rem_1fr] gap-y-2 pt-4 text-sm">
-            <dt className="label">Source</dt><dd className="break-all"><a className="text-meridian underline" href={o.sourceUrl} target="_blank" rel="noopener noreferrer">{o.sourceUrl}</a></dd>
+            <dt className="label">Source</dt><dd className="break-all"><a className="text-meridian" href={o.sourceUrl} target="_blank" rel="noopener noreferrer">{o.sourceUrl}</a></dd>
             <dt className="label">Observer</dt><dd className="mono break-all">{o.observer}</dd>
           </dl>
           {o.status === GeoStatus.Pending && !PREVIEW_MODE && (
