@@ -1,0 +1,15 @@
+{
+  "project": "32-meridian-atlas",
+  "name": "Meridian",
+  "network": "testnetBradbury",
+  "chainId": 4221,
+  "rpc": "https://rpc-bradbury.genlayer.com",
+  "explorer": "https://explorer-bradbury.genlayer.com",
+  "contractAddress": "0x478B672D126a2405153E48a91bdB83fb6067BD95",
+  "deployTxHash": "0x2fcea2042ba09d682a9675f7839131036e28b3808c8f4780c2ae27fd63a7d438",
+  "contractExplorer": "https://explorer-bradbury.genlayer.com/address/0x478B672D126a2405153E48a91bdB83fb6067BD95",
+  "deployer": "0xdAa923b817C6116f2463957542FB29F6Ba671FE8",
+  "deployedAt": "2026-07-01T15:48:23.503Z",
+  "statusName": 5,
+  "smoke": {}
+}
